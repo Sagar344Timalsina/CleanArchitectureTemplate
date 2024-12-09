@@ -1,0 +1,74 @@
+# .NET Core
+.vs/
+.vscode/
+.idea/
+bin/
+obj/
+out/
+
+# User-specific files
+*.user
+*.userosscache
+*.suo
+*.sln.docstates
+
+# ASP.NET Core
+appsettings.json
+appsettings.*.json
+secrets.json
+appsettings.Development.json
+appsettings.Production.json
+
+# Rider
+.idea/
+
+# Windows Installer files
+Thumbs.db
+ehthumbs.db
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# Entity Framework Core
+# Ignore EF migrations folders (optional)
+Migrations/
+
+# VS Code settings folder
+.vscode/
+
+# Logs
+*.log
+
+# User-specific files for .NET Core
+*.dbmdl
+*.bak
+
+# Npm packages and Node.js artifacts
+node_modules/
+package-lock.json
+yarn.lock
+
+# Docker
+.docker/
+
+# Azure DevOps build files (if applicable)
+.vsts/
+
+# Generated files from dotnet
+Generated/
+
+# JetBrains Rider files
+.idea/
+
+# JetBrains ReSharper
+_ReSharper*/
+
+# File-based databases
+*.sqlite
+*.db
+
+# JetBrains Rider files
+.idea/
+
+# Azure Pipelines
+.azure-pipelines/
