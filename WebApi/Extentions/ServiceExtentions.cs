@@ -21,7 +21,7 @@ public static class ServiceExtentions
         IConfiguration configuration)
     {
         services.AddApplicationDI(configuration);
-        services.AddInfrastructureDI();
+        services.AddInfrastructureDI(configuration);
         services.AddPersistenceDI(configuration);
         return services;    
     }

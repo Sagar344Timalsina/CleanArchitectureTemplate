@@ -50,6 +50,8 @@ yarn.lock
 
 # Docker
 .docker/
+docker-compose/
+
 
 # Azure DevOps build files (if applicable)
 .vsts/

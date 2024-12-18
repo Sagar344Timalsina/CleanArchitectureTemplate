@@ -15,7 +15,14 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Persistence", "Persistence\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApi", "WebApi\WebApi.csproj", "{9E00865B-8133-44F9-867E-62E3A650EDD6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shared", "Shared\Shared.csproj", "{7457D362-25BE-418C-A2D3-EDEC8D9A3A78}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shared", "Shared\Shared.csproj", "{7457D362-25BE-418C-A2D3-EDEC8D9A3A78}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{86E47A55-4FBB-4045-801F-E05BCB9F811F}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{EA80AB0D-7F19-4D52-A694-DA4EEA829BAE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -47,6 +54,10 @@ Global
 		{7457D362-25BE-418C-A2D3-EDEC8D9A3A78}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7457D362-25BE-418C-A2D3-EDEC8D9A3A78}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7457D362-25BE-418C-A2D3-EDEC8D9A3A78}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA80AB0D-7F19-4D52-A694-DA4EEA829BAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA80AB0D-7F19-4D52-A694-DA4EEA829BAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA80AB0D-7F19-4D52-A694-DA4EEA829BAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA80AB0D-7F19-4D52-A694-DA4EEA829BAE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
