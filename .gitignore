@@ -75,3 +75,5 @@ _ReSharper*/
 
 # Azure Pipelines
 .azure-pipelines/
+
+.env
