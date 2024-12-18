@@ -51,6 +51,7 @@ yarn.lock
 # Docker
 .docker/
 docker-compose/
+docker-compose.yml/
 
 
 # Azure DevOps build files (if applicable)
